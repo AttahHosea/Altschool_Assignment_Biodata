@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Signup</title>
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a aria-current="page" href="signup.html">Sign Up</a></li>
+      </ul>
+    </nav>
+    <h1>AltSchool Signup</h1>
+    <form action="#" method="post">
+      <label for="firstname">First Name:</label>
+      <input
+        type="text"
+        id="fname"
+        name="fname"
+        required
+        placeholder="Enter First Name"
+        minlength="2"
+        aria-label="Name"
+        tabindex="1"
+      /><br /><br />
+
+      <label for="lastname">Last Name:</label>
+      <input
+        type="text"
+        id="lname"
+        name="lname"
+        required
+        placeholder="Enter Last Name"
+        minlength="2"
+        aria-label="Name"
+        tabindex="2"
+      /><br /><br />
+
+      <label for="gender">Gender:</label>
+      <select
+        id="gender"
+        name="gender"
+        required
+        aria-label="Gender"
+        tabindex="3"
+      >
+        <option value="" disabled selected>Select Gender</option>
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+        <option value="other">Other</option>
+      </select>
+      <br /><br />
+
+      <label for="dob">Date of Birth:</label>
+      <input
+        type="date"
+        id="dob"
+        name="dob"
+        required
+        aria-label="Date"
+        tabindex="4"
+      /><br /><br />
+
+      <label for="email">Email:</label>
+      <input
+        type="email"
+        id="email"
+        name="email"
+        required
+        placeholder="Ener email address"
+        minlength="3"
+        aria-label="Email"
+        tabindex="5"
+      /><br /><br />
+
+      <label for="edulevel">Educational Level:</label>
+      <select
+        id="edulevel"
+        name="edulevel"
+        required
+        aria-label="Edulevel"
+        tabindex="6"
+      >
+        <option value="" disabled selected>Select level of education</option>
+        <option value="bsc">Bsc</option>
+        <option value="msc">Msc</option>
+        <option value="diploma">Diploma</option>
+        <option value="doctorate">Doctorate (PhD)</option>
+        <option value="high-school">High school / Secondary school</option>
+        <option value="undergrad">Under Graduate</option>
+        <option value="jnr-school">Junior / Middle School</option>
+        <option value="postgrad">Post Graduate</option>
+      </select>
+      <br /><br />
+
+      <label for="country">Country:</label>
+      <select
+        id="country"
+        name="country"
+        required
+        aria-label="Country"
+        tabindex="7"
+      >
+        <option value="" disabled selected>Select your country</option>
+        <option value="nigeria">Nigeria</option>
+        <option value="kenya">Kenya</option>
+        <option value="ghana">Ghana</option>
+        <option value="south-africa">South Africa</option>
+        <option value="others">Others</option>
+      </select>
+      <br /><br />
+
+      <label for="address">State / City of residence:</label>
+      <input
+        type="address"
+        id="address"
+        name="address"
+        required
+        placeholder="Enter your state of residence"
+        minlength="3"
+        aria-label="Address"
+        tabindex="8"
+      /><br /><br />
+
+      <label for="employment">Employment Status:</label>
+      <select
+        id="employment"
+        name="employment"
+        required
+        aria-label="Employment"
+        tabindex="9"
+      >
+        <option value="" disabled selected>Select Employment Status</option>
+        <option value="employed">Employed</option>
+        <option value="unemployed">Unemployed</option>
+        <option value="self-employed">Self-employed</option>
+      </select>
+      <br /><br />
+
+      <label for="number">Phone Number:</label>
+      <input
+        type="tel"
+        id="phoneno"
+        name="phoneno"
+        placeholder="123456789"
+        minlength="3"
+        required
+        aria-label="phoneno"
+        tabindex="10"
+      /><br /><br />
+
+      <label for="school">Choose School:</label>
+      <input
+        type="name"
+        id="school"
+        name="school"
+        placeholder="Select school"
+        minlength="3"
+        required
+        aria-label="School"
+        tabindex="11"
+      /><br /><br />
+
+      <label for="course">Choose Course:</label>
+      <input
+        type="name"
+        id="course"
+        name="course"
+        placeholder="select course"
+        minlength="3"
+        required
+        aria-label="Course"
+        tabindex="12"
+      /><br /><br />
+
+      <label for="source">How did you hear about us?:</label>
+      <select
+        id="source"
+        name="source"
+        required
+        aria-label="Source"
+        tabindex="13"
+      >
+        <option value="" disabled selected>Select channel</option>
+        <option value="twitter">Twiter</option>
+        <option value="facebook">Facebook</option>
+        <option value="youtube">Youtube</option>
+        <option value="linkedin">Linkedin</option>
+        <option value="instagram">Instagram</option>
+        <option value="whatsapp">Whatsapp</option>
+        <option value="friend">Friend</option>
+        <option value="billboard">Bill board</option>
+      </select>
+      <br /><br />
+
+      <label for="discount">Scholarship / Discount Code (optional):</label>
+      <input
+        type="name"
+        id="discount"
+        name="discount"
+        placeholder="Scholarship or student ID or discout code"
+        minlength="3"
+        required
+        aria-label="Discount"
+        tabindex="14"
+      /><br /><br />
+
+      <input type="submit" value="Sign Up" tabindex="6" />
+    </form>
+  </body>
+</html>
